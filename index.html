@@ -1,0 +1,53 @@
+<!-- Para gerar o código inicial (ctrl + !) -->
+<!-- para gerar comentário (ctrl + ;) -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css">
+
+    <!-- a cabeça e o corpo do site, de que forma cada coisa vai funcionar -->
+</head>
+
+<body>
+    <!-- divisão das classes(se comportam como se fosse caixas) -->
+    <div class="login">
+        <div class="login_left">
+
+            <!-- Filhos das caixas, fazem o papel de moldar a forma que cada um
+        vai se comportar dentro das divisões das classes -->
+            <h1>Faça login <br> Entre para o nosso time</h1>
+            <img src="img/animação.svg" alt="imagem animada" class="login-login-left">
+            <!-- divisão das classes -->
+        </div>
+        <div class="login_right">
+
+            <div class="login_card">
+                <!-- filhos -->
+                <h1>Login</h1>
+                <div class="textfield">
+                <!-- label serve para fazer o rotulo para o usuario -->
+                <!-- input serve para a entrada do texto que vai ser introduzido 
+                no site pelo usuário -->
+                    <label for="use">Usuário</label>
+                    <input type="text" name="user" id="user" placeholder="Usuário">
+
+                </div>
+<!-- textfield serve para configurar o texto que vai ser colocado no label e no input -->
+                <div class="textfield">
+                    <label for="pass">Senha</label>
+                    <input type="password" name="pass" id="pass" placeholder="Senha">
+                </div>
+<!-- vai criar a classe do botão para ser configurado no css, e dar nome do botão-->
+                <button type="submit" class="btn-login">LOGIN</button>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
